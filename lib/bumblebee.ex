@@ -93,6 +93,8 @@ defmodule Bumblebee do
     "BartForSequenceClassification" => {Bumblebee.Text.Bart, :for_sequence_classification},
     "BartModel" => {Bumblebee.Text.Bart, :base},
     "BertForMaskedLM" => {Bumblebee.Text.Bert, :for_masked_language_modeling},
+    "JinaBertModel" => {Bumblebee.Text.JinaBert, :base},
+    "JinaBertForMaskedLM" => {Bumblebee.Text.JinaBert, :for_masked_language_modeling},
     "BertForMultipleChoice" => {Bumblebee.Text.Bert, :for_multiple_choice},
     "BertForNextSentencePrediction" => {Bumblebee.Text.Bert, :for_next_sentence_prediction},
     "BertForPreTraining" => {Bumblebee.Text.Bert, :for_pre_training},
